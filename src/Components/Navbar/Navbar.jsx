@@ -111,7 +111,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden">
           <NavLink
-            to="/about"
+            to="/"
             className={({ isActive }) =>
               isActive ? "bg-gray-700 block px-4 py-2 text-sm" : "block px-4 py-2 text-sm hover:bg-gray-700"
             }
@@ -156,7 +156,7 @@ const Navbar = () => {
             Contact
           </NavLink>
           <NavLink
-            to="/contact"
+            to="/github"
             className={({ isActive }) =>
               isActive ? "bg-gray-700 block px-4 py-2 text-sm" : "block px-4 py-2 text-sm hover:bg-gray-700"
             }
